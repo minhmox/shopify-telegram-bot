@@ -103,6 +103,6 @@ http.createServer(function(req, res) {
   }
 
   res.end("Bot đang chạy");
-}).listen(PORT, function() {
+}).listen(PORT, "0.0.0.0", function() {
   console.log("🚀 Bot chạy tại port " + PORT);
 });
